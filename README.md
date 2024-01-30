@@ -25,7 +25,6 @@ The project consists of an HTML file (`index.html`) and a CSS file (`style.css`)
 
 ## Screenshots
 
-![Instagram Landing Page](/image/Insta-Landing-Page.PNG)
 
 ![Insta-Landing-Page](https://github.com/Mugheessaad/RegisterCompany-using-Fetch/assets/110941437/859da978-ddfe-499b-b16b-e655e58b1aa3)
 
