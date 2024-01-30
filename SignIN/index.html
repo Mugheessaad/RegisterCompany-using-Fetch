@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign In</title>
+    <link rel="stylesheet" href="signIN.css" />
+    <script
+      src="https://kit.fontawesome.com/a5fa9ff3d2.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div id="main" class="main">
+      <div id="leftSideMain" class="leftSideMain">
+        <div id="logodiv" class="logodiv">
+          <img src="/image/head.png" alt="" />
+        </div>
+        <div id="textleftdiv" class="textleftdiv">
+          <h1>Register Your Company with us!</h1>
+          <br />
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deleniti
+            vero repudiandae sit ex magnam minus aliquid atque pariatur aliquam
+            quis ut totam porro quaerat, mollitia nam ad molestias, commodi,
+            voluptate autem reiciendis illo cumque? Necessitatibus expedita,
+            alias eaque harum ad labore, optio fuga debitis aut, consequuntur
+            fugit dicta amet libero!
+          </p>
+        </div>
+      </div>
+      <form action="" id="myform">
+        <div id="rightSideMain" class="rightSideMain">
+          <div class="dontIdDiv">
+            <div class="dontId">
+              Dont have a Company?<a href="/Registration/register.html"
+                ><b>Register</b></a
+              >
+            </div>
+          </div>
+          <div class="signupImployee">
+            <div class="signupImployeediv">
+              <a href="/SignupEmployee/SignupEmployee.html">
+                <b>Register</b></a>Sign up as a employee
+            </div>
+          </div>
+          <div id="formSignIn" class="formSignIn">
+            <div class="formSign" id="formSign">
+              <div class="input-icons">
+                <i class="fa fa-envelope icon" id="iconEmail"></i>
+                <input
+                  class="input-field"
+                  type="email"
+                  placeholder="Email"
+                  id="inputEmail"
+                  required
+                />
+              </div>
+              <div class="input-icons">
+                <i class="fa fa-key icon" id="iconPass"> </i>
+                <input
+                  class="input-field"
+                  type="password"
+                  placeholder="Password"
+                  id="inputPass"
+                  required
+                />
+              </div>
+              <div id="signINbutton" class="signINbutton">
+                <button type="submit" onclick="signIn(event)">Sign in</button>
+              </div>
+              <div class="fgpass">Forget Password?</div>
+            </div>
+          </div>
+        </div>
+      </form>
+    </div>
+    <script src="signIn.js"></script>
+  </body>
+</html>

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="register.css" />
+    <script
+      src="https://kit.fontawesome.com/a5fa9ff3d2.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div id="main">
+      <div id="logodiv" class="logodiv"><img src="/image/head.png" alt=""></div>
+      <form action="" id="myform">
+      <div id="companyForm">    
+        <div class="input-icons">
+          <i class="fa-solid fa-user"></i>
+          <input
+            class="input-field"
+            type="text"
+            placeholder="Company Name"
+            id="inputUserName"
+            required
+          />
+        </div>
+        <div class="input-icons">
+          <i class="fa-solid fa-user-tie"></i>
+          <input
+            class="input-field"
+            type="text"
+            placeholder="Admin employee"
+            id="inputAdmin"
+            required
+          />
+        </div>
+        <div class="input-icons">
+          <i class="fa-solid fa-envelope"></i>
+          <input
+            class="input-field"
+            type="email"
+            placeholder="Email"
+            id="inputEmail"
+            required
+          />
+        </div>
+        <div class="input-icons">
+          <i class="fa-solid fa-key"></i>
+          <input
+            class="input-field"
+            type="password"
+            placeholder="Password"
+            id="inputPass"
+            required
+          />
+        </div>
+        <div class="input-icons">
+          <textarea
+            id="inputTextArea"
+            name="inputTextArea"
+            placeholder="Please write some description..."
+            rows="4"
+            cols="62"
+          ></textarea>
+        </div>
+        <div class="SubmitBtn" id="SubmitBtn"><button type="submit" onclick="submitForm(event)" >Submit</button></div>
+      </form>
+      </div>
+    </div>
+    <script src="register.js"></script>
+  </body>
+</html>

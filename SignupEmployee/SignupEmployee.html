@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="SignupEmployee.css" />
+    <script
+      src="https://kit.fontawesome.com/a5fa9ff3d2.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div id="main">
+      <div id="logodiv" class="logodiv"><img src="/image/head.png" alt=""></div>
+      <form action="" id="myform">
+      <div id="companyForm">    
+        <div><h1 style=" color: #558af7;">Employee Signup</h1></div>
+        <div class="input-icons">
+          <i class="fa-solid fa-user"></i>
+          <input
+            class="input-field"
+            type="text"
+            placeholder="Full Name"
+            id="inputUserName"
+            required
+          />
+        </div>
+        <div class="input-icons">
+            <i class="fa-solid fa-envelope"></i>
+            <input
+              class="input-field"
+              type="email"
+              placeholder="Email"
+              id="inputEmail"
+              required
+            />
+          </div>
+        <div class="input-icons">
+          <i class="fa-solid fa-user-tie"></i>
+          <input
+            class="input-field"
+            type="text"
+            placeholder="Company Name"
+            id="inputCompanyName"
+            required
+          />
+        </div>
+        <div class="input-icons">
+          <i class="fa-solid fa-key"></i>
+          <input
+            class="input-field"
+            type="password"
+            placeholder="Password"
+            id="inputPass"
+            required
+          />
+        </div>
+        <div class="dropDown">
+            <select id="department" required>
+              <option value="">Select Department</option>
+              <option value="Admin">Admin</option>
+              <option value="Marketing">Marketing</option>
+              <option value="Sales">Sales</option>
+              <option value="Production">Production</option>
+              <option value="Legal">Legal</option>
+            </select>
+          </div>
+        <div class="SubmitBtn" id="SubmitBtn"><button type="submit" onclick="submitForm(event)" >Submit</button></div>
+      </form>
+      <!-- <div  class="tableDIv">
+        <table class="tableDiv" id="tableDiv">
+          <tr>
+            <th>Full Name</th>
+            <th>Email</th>
+            <th>Phone Number</th>
+            <th>Department</th>
+          </tr>
+        </table> -->
+      </div>
+      </div>
+    </div>
+    <script src="SignupEmployee.js"></script>
+  </body>
+</html>

@@ -1,0 +1,152 @@
+#main{
+    background-color: #558af7;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#main form{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+#companyForm{
+    border: 1px solid grey;
+    width: 70%;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+}
+
+
+.logodiv{
+    background: white;
+    width: 100%;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logodiv img{
+    width: 150px;
+    height: 50px;
+}
+
+
+.input-icons i {
+    position: absolute;
+    color: #558af7;
+    padding: 10px;
+}
+
+.fgpass{
+    width: 100%;
+    margin-top: 20px;
+    color: #888888;
+    display: flex;
+    justify-content: center;
+}
+ 
+.input-icons {
+    width: 40%;
+    margin-bottom: 10px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.input-icons textarea{
+    background-color: #ebeef5;
+    border: none;
+    border-bottom: 3px solid #558af7;
+}
+.input-icons b{
+    color: #558af7;
+}
+ 
+.icon {
+    padding: 10px;
+    min-width: 50px;
+    text-align: center;
+}
+
+ 
+.input-field {
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    border: none;
+    border-bottom: 3px solid #558af7;
+}
+
+.SubmitBtn{
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+.SubmitBtn button{
+    text-decoration: none;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    border: 1px solid;
+    border-radius: 8px;
+    align-items: center;
+    background-color: #558af7;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+    font-size: x-large;
+    box-shadow: 5px 5px 15px -5px #888888;
+    margin-bottom: 15px;
+}
+
+.SubmitBtn button:hover{
+    background-color: white;
+    color: #558af7;
+    border-color: #558af7;
+}
+
+
+.dropDown{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.dropDown select{
+    width: 40%;
+    height: 4vh;
+    background: #c7d5f0;
+}
+
+
+.tableDiv {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  
+ .tableDiv td {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  .tableDiv th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+    padding-right: 15px;
+    padding-left: 10px;
+  }
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }
